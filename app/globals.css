@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	@apply font-bold my-4;
+}
+
+h1 {
+	@apply text-2xl;
+}
+
+h2 {
+	@apply text-xl;
+}
+
+h3 {
+	@apply text-lg;
+}
+
+p {
+	@apply my-2;
+}
+
+.btn-header {
+	@apply w-full md:w-fit p-2 bg-slate-800 border-2 border-amber-600 rounded-lg
+}
